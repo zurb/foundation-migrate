@@ -1,7 +1,7 @@
 foundation-migrate: Migrate to Foundation 5.0+
 ==================
 
-This plugin will patch Foundation 4 JavaScript initialization code with Foundation 5 syntax and will log a warning that explains the new approach. Use this plugin to migrate your Foundation 4 JavaScript to Foundation 5 JavaScript.
+This plugin will patch Foundation 4 JavaScript initialization code with Foundation 5 syntax and will log a warning that explains the error in your code. Use this plugin to migrate your Foundation 4 JavaScript to Foundation 5 JavaScript.
 
 ## How to Use
 
