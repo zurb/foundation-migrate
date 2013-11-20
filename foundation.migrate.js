@@ -34,7 +34,7 @@
     Foundation.old_init.apply(Foundation, [scope, libraries, method, options, response]);
     if (Foundation.migrate.notified) return;
 
-    if (Foundation.migrate.warnings.length > 1) {
+    if (Foundation.migrate.warnings.length > 0) {
       console.warn('You have ' + Foundation.migrate.warnings.length + ' Foundation migration issues on your page, learn more: http://foundation.zurb.com/docs/upgrading.html');
       Foundation.migrate.notified = true;
     }
