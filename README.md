@@ -31,4 +31,4 @@ Then initialize Foundation:
 </script>
 ```
 
-Once  you are no longer getting any warnings in your console with the *FOUNDATION MIGRATION:* prefix you can remove the `jquery-migrate.js` library from your page.
+Once  you are no longer getting any warnings in your console with the *FOUNDATION MIGRATION:* prefix you can remove the `foundation-migrate.js` library from your page.
