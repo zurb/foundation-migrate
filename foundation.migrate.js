@@ -26,6 +26,10 @@
         if (/sections/i.test(lib)) {
           Foundation.migrate.warn('"section" has been removed and replaced with "tabs" and "accordion" libraries.');
         }
+        
+        if (/forms/i.test(lib)) {
+          Foundation.migrate.warn('"forms" have been removed and replaced with a native browser solution.');
+        }
 
         libraries[libs[count]] = method;
       }
@@ -59,7 +63,7 @@
   Foundation.migrate = {
     name : 'migrate',
 
-    version : '1.0.0',
+    version : '1.0.1',
 
     settings : {
       mute : false,
