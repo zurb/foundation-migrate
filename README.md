@@ -17,7 +17,7 @@ After you have foundation and jQuery included before the closing body tag, drop 
 ```html
 <script src="js/vendor/jquery.js"></script>
 <script src="js/foundation/foundation.min.js"></script>
-<script src="js/foundation-migrate.js"></script>
+<script src="js/foundation.migrate.js"></script>
 ```
 
 Then initialize Foundation:
@@ -25,7 +25,7 @@ Then initialize Foundation:
 ```html
 <script src="js/vendor/jquery.js"></script>
 <script src="js/foundation/foundation.min.js"></script>
-<script src="js/foundation-migrate.js"></script>
+<script src="js/foundation.migrate.js"></script>
 <script>
   $(document).foundation();
 </script>
