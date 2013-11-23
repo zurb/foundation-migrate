@@ -114,7 +114,8 @@
         'tooltipClass' : 'tooltip_class',
         'touchCloseText' : 'touch_close_text',
         'appendTo' : 'append_to',
-        'tipTemplate' : 'tip_template'
+        'tipTemplate' : 'tip_template',
+        'disable-for-touch' : 'disable_for_touch'
       }
     },
 
