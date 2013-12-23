@@ -18,7 +18,7 @@
       while(count--) {
         var lib = libs[count];
 
-        if (/alerts|tootlips/i.test(lib)) {
+        if (/alerts|tooltips/i.test(lib)) {
           lib = lib.slice(0, - 1);
           Foundation.migrate.warn('"' + lib + 's" has been renamed to "alert" in Foundation 5.');
         }
