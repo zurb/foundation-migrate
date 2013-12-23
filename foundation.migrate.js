@@ -63,7 +63,7 @@
   Foundation.migrate = {
     name : 'migrate',
 
-    version : '1.0.1',
+    version : '1.0.2',
 
     settings : {
       mute : false,
